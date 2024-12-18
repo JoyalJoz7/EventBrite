@@ -1,30 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const carousel = document.querySelector('.carousel-wrapper .carousel');
-    const dots = document.querySelectorAll('.carousel-wrapper .carousel-indicators .dot');
-    const totalItems = document.querySelectorAll('.carousel-wrapper .carousel-item').length;
+document.addEventListener('DOMContentLoaded', function() {
+    const carouselWrapper = document.querySelector('.banner-wrapper');
+    const carouselImages = document.querySelectorAll('.carousel-imgdiv');
+    const dots = document.querySelectorAll('.dots-container svg');
     let currentIndex = 0;
 
     function updateCarousel() {
-        carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+        const offset = -currentIndex * 100;
+        carouselWrapper.style.transform = `translateX(${offset}%)`;
 
         dots.forEach((dot, index) => {
-            dot.classList.remove('active');
-            if (index === currentIndex) {
-                dot.classList.add('active');
-            }
+            dot.classList.toggle('active',index === currentIndex);
         });
     }
 
     function nextSlide() {
-        if (currentIndex < totalItems - 1) {
-            currentIndex++;
-        } else {
-            currentIndex = 0;
-        }
+        currentIndex = (currentIndex + 1) % carouselImages.length;
         updateCarousel();
     }
 
-    setInterval(nextSlide, 2000);
-
     updateCarousel();
+    setInterval(nextSlide, 3850);
 });
