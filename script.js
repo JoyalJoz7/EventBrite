@@ -21,3 +21,38 @@ document.addEventListener('DOMContentLoaded', function() {
     updateCarousel();
     setInterval(nextSlide, 3850);
 });
+
+
+const dropdown = document.querySelector('.eds-dropdown')
+const drpdn_btn = document.querySelector('.field-styled-aside')
+const input_tab = document.querySelector('.field-styled-input')
+
+// drpdn_btn.addEventListener('click', () => {
+//     dropdown.classList.add('active')
+    
+// })
+
+const toggleDropdown = () => {
+    dropdown.classList.toggle('active');
+};
+
+drpdn_btn.addEventListener('click', (event) => {
+    event.stopPropagation(); 
+    toggleDropdown();
+});
+
+document.addEventListener('click', (event) => {
+    if (!dropdown.contains(event.target) && !drpdn_btn.contains(event.target)) {
+        dropdown.classList.remove('active');
+    }
+});
+
+
+const hamburger = document.querySelector('.mobile-dropdn')
+const cross_btn = document.querySelector('.cross-btn')
+const dropdn_menu = document.querySelector('.threeline-dropdn')
+
+hamburger.addEventListener('click',()=>{
+    dropdn_menu.classList.toggle('active')
+
+})
