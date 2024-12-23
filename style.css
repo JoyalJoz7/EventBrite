@@ -443,7 +443,7 @@ circle {
 }
 
 .eds-1-mar-bot-2 {
-    margin-bottom: 8px;
+    margin-bottom:12px;
 }
 
 .banner-carousel img {
@@ -497,8 +497,8 @@ circle {
 }
 
 .icon-cat-img {
-    height: 62px;
-    width: 62px;
+    height: 64px;
+    width: 64px;
     margin-bottom: 6px;
     background-color: #fff;
     border: 1px solid #dee5ff;
@@ -589,6 +589,7 @@ circle {
     display: flex;
     position: relative;
     align-items: center;
+    padding:2px 0 2px 2px;
 }
 
 .field-styled-aside {
@@ -637,7 +638,7 @@ circle {
     position: absolute;
     padding-left:2px;
     padding-right:6px;
-    width:138.55;
+    width:130.55;
 }
 
 .browse-location .eds-dropdown{
@@ -1152,4 +1153,121 @@ button:has(.eds-text.active){
 .infra-tag a:last-child{
     padding:12px 12px 12px 0;
     line-height:12px;
+}
+
+.footer-inner{
+    background-color:#1e0a3c;
+    margin-bottom:-1px;
+}
+
+.footer-divs{
+    font-size:12px;
+    line-height:24px;
+    padding-top:16px;
+    width:100%;
+    display:inline-block;
+    overflow:hidden;
+    text-align:center;
+}
+
+.foot-p{
+    font-size:16px;
+    font-family: bold;
+    line-height:1.5rem;
+    padding-block:8px;
+}
+
+.footer-divs ul{
+    padding-bottom:8px;
+    padding-top:8px;
+}
+
+.footer-link{
+    display:inline-block;
+    font-size:14px;
+    height:48px;
+    font-family: light;
+}
+
+.footer-innertwo{
+    padding-inline:24px;
+    margin-inline:auto;
+    background-color:#1e0a3c;
+    text-align: center;
+}
+
+.copyright{
+    font-size:12px;
+    line-height:24px;
+    padding-block:16px;
+    width:100%;
+}
+
+.general-links{
+    font-size: 12px;
+    line-height:24px;
+    width:100%;
+}
+
+.bullet-links{
+    display:inline-block;
+}
+
+.bullet-links a{
+    display:inline-block;
+    font-size:14px;
+    height:48px;
+    font-family:light;
+    color:#dbdae3;
+}
+
+.bullet-links a::after{
+    color:#6f7287;
+    content:"●";
+    font-size:6px;
+    line-height:16px;
+    padding:0 8px;
+    position:relative;
+    top:-2px;
+}
+
+.bullet-linksLast{
+    display:inline-block;
+    font-family:light;
+    color:#dbdae3;
+}
+
+.bullet-linksLast a{
+    display:inline-block;
+    font-size:14px;
+    height:48px;
+    color:#dbdae3;
+}
+
+.last-a{
+    display:inline-block;
+    font-size:14px;
+    height:48px;
+}
+
+
+.region-div{
+    font-size:12px;
+    line-height:24px;
+    padding-top:16px;
+    padding-bottom:12px;
+    width:100%;   
+}
+
+#region-select{
+    background:none;
+    border:none;
+    height:auto;
+    font-size:12px;
+    line-height:22px;
+    padding:12px 14px;
+    color:#dbdae3;
+    min-height:23px;
+    outline:none;
+    font-family: light;
 }
