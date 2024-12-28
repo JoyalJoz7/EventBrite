@@ -1482,8 +1482,15 @@ button:has(.eds-text.active){
     .searchbar{
         margin-top:0;
     }
+    .nav-module-links{
+        flex-shrink:0;
+        flex-basis: auto;
+    }
+    .mobilenav-link-container{
+        justify-content:flex-end;
+        gap:0;
+    }
 }
-
 
 @media screen and (min-width:1272px){
     .feed-card-cell{

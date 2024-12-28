@@ -1,0 +1,70 @@
+{
+    "online": [
+        {
+            "eventCard": {
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F840442909%2F1214355286223%2F1%2Foriginal.20240903-160127?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=698711b7e8c99d2b3474c33671a7da6c",
+                "title": "New York, NY Speed Dating | Virtual Speed Dating | Ages 18+",
+                "date": "Fri, Jan 17 • 6:00 AM GMT+5:30",
+                "price": "Free",
+                "hostName": "couple.com",
+                "followers": "2.2k followers",
+                "promoted" : true
+            }
+        },
+        {
+            "eventCard": {
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904541313%2F24792341007%2F1%2Foriginal.20241122-132541?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C15%2C1200%2C600&s=890bfe950713115170c96acd202053f5",
+                "title": "HBR Press Webinar:Mindmasters",
+                "date": "Tue, Jan 14 • 6:30 PM GMT+5:30",
+                "price": "From £0.00",
+                "hostName": "HBR Press",
+                "followers": "9.2k followers",
+                "promoted" : false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904525843%2F12679432051%2F1%2Foriginal.20241122-124536?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1000%2C500&s=88d54ea68f7efed4aa69966a209fda04",
+                "title" : "How to Make This Year Happier - Prof.Cassie Holmes",
+                "date" : "Wed, Jan 15 •  12:30 AM  GMT+5:30",
+                "price" : "From £0.00",
+                "hostName" : "Action for Happiness",
+                "followers" : "22.1k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F721295109%2F393488177349%2F1%2Foriginal.20240317-021910?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C6912%2C3456&s=0d890befe986da05e64e6fd497bae88f",
+                "title" : "The Super Group (December)",
+                "date" : "Tomorrow • 2:30 AM GMT+5:30",
+                "price" : "Check ticket price on event",
+                "hostName" : "Charlie Goldsmith",
+                "followers" : "6.6k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904525843%2F12679432051%2F1%2Foriginal.20241122-124536?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1000%2C500&s=88d54ea68f7efed4aa69966a209fda04",
+                "title" : "Facing 2025 Together: Astrology for Community Care and Resistance",
+                "date" : "Tuesday • 6:30 AM GMT+5:30",
+                "price" : "From $1.00",
+                "hostName" : "Jessica Lanyadoo",
+                "followers" : "521 followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        }
+    ]
+}
