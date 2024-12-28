@@ -56,3 +56,15 @@ hamburger.addEventListener('click',()=>{
     dropdn_menu.classList.toggle('active')
 
 })
+
+const inputField = document.querySelector('.online-search-input')
+
+document.addEventListener('DOMContentLoaded',function(){
+    
+    inputField.addEventListener('focus',function() {
+        this.placeholder = 'Choose a location'
+    });
+    inputField.addEventListener('blur',function() {
+        this.placeholder = 'Online'
+    });
+})
