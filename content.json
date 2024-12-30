@@ -15,7 +15,7 @@
             "eventCard": {
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904541313%2F24792341007%2F1%2Foriginal.20241122-132541?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C15%2C1200%2C600&s=890bfe950713115170c96acd202053f5",
                 "title": "HBR Press Webinar:Mindmasters",
-                "date": "Tue, Jan 14 • 6:30 PM GMT+5:30",
+                "date": "Today • 6:30 PM GMT+5:30",
                 "price": "From £0.00",
                 "hostName": "HBR Press",
                 "followers": "9.2k followers",
@@ -46,13 +46,316 @@
         },
         {
             "eventCard":{
-                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904525843%2F12679432051%2F1%2Foriginal.20241122-124536?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1000%2C500&s=88d54ea68f7efed4aa69966a209fda04",
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F916558023%2F1723313961333%2F1%2Foriginal.20241212-195028?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.499242406903&fp-y=0.558803976572&s=48d442c3e06b420971851e2384f66116",
                 "title" : "Facing 2025 Together: Astrology for Community Care and Resistance",
-                "date" : "Tuesday • 6:30 AM GMT+5:30",
+                "date" : "Today • 6:30 AM GMT+5:30",
                 "price" : "From $1.00",
                 "hostName" : "Jessica Lanyadoo",
                 "followers" : "521 followers",
                 "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F912443843%2F554544450361%2F1%2Foriginal.20241205-193341?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.000156734350956&fp-y=0.00411784005431&s=1623257d3005420871ea8d23f13d6c45",
+                "title" : "Winter Activities for Invasive Plant Control",
+                "date" : "Wed, Jan 8 •  10:00 AM GMT+5:30",
+                "price" : "Free",
+                "hostName" : "Blue Ridge PRISM (Virginia)",
+                "followers" : "851 followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F917202833%2F492867033629%2F1%2Foriginal.20241213-205830?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3379cd6b976be048b87d425a99cbf1b9",
+                "title" : "Looking Back and Letting Go: Processing 2024",
+                "date" : "Tomorrow • 9:30 PM GMT+5:30",
+                "price" : "From £0.00",
+                "hostName" : "Rukmini Poddar (Dear Ruksi)",
+                "followers" : "552 followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F720326389%2F111492295925%2F1%2Foriginal.20240315-131640?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C51%2C2000%2C1000&s=8c1064bcac291fca64c5d4812e57bba4",
+                "title" : "Tiny Midges, Devastating Diseases",
+                "date" : "Tomorrow • 6:30 PM GMT+5:30",
+                "price" : "Free",
+                "hostName" : "The Biological Recording Company",
+                "followers" : "3.2k followers",
+                "promoted":false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F914363353%2F1160805926383%2F1%2Foriginal.20241209-195201?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.0151515151515&fp-y=0.200996677741&s=4352cfdb6d810d7a576a597f81e715f8",
+                "title" : "2025 New Year Kickoff!",
+                "date" : "Today •  10:30 PM  GMT+5:30",
+                "price" : "From $10.00",
+                "hostName" : "Sarah Bjorgaard",
+                "followers" : "86 followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F899103013%2F337247251517%2F1%2Foriginal.20241114-165331?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=4dde2b227a640ea4d37262de7c7b86ad",
+                "title" : "Building Trust: What to do when it is already broken",
+                "date" : "Wed, Jan 15 •  5:00 PM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "chartered Management Institute",
+                "followers" : "10.5k followers",
+                "promoted":false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F912963673%2F111492295925%2F1%2Foriginal.20241206-165152?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C24%2C2000%2C1000&s=7c9abf83ff6b8b6d7b44efd5e4a912698",
+                "title" : "A Rewilded London: Reimagining a Wilder Future for the City",
+                "date" : "Wednesday • 11:30 PM GMT+5:30",
+                "price" : "From £0.00",
+                "hostName" : "The Biological Recording Company",
+                "followers" : "3.2k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F827185509%2F111492295925%2F1%2Foriginal.20240814-201123?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C58%2C2000%2C1000&s=e31e068d4ecfcba2de61d95214365eab",
+                "title" : "How Many Moths and Butterflies? The Importance of Taxonomy",
+                "date" : "Tue, Jan 7 •  6:30 PM  GMT+5:30",
+                "price" : "From $1.00",
+                "hostName" : "The Biological Recording Company",
+                "followers" : "3.2k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904411753%2F2194481678623%2F1%2Foriginal.20241122-055625?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=3.63636363636e-05&fp-y=4.35e-05&s=4d9ab725e7e464739bdfb2820cdc753e",
+                "title" : "January 2024 Job Market Trends + Recruiter Advice + Use AI Resume Tools!",
+                "date" : "Thu, Jan 9 •  1:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "Up Your App",
+                "followers" : "2.6k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F874125149%2F157764583356%2F1%2Foriginal.20241014-165456?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fde6259f8ba2774e92a9555f7e9cbb17",
+                "title" : "Linnean Lens | Leonhard Fuchs's History of Plants (1542)",
+                "date" : "Tue, Jan 14 •  7:30 PM  GMT+5:30",
+                "price" : "From £10.00",
+                "hostName" : "Linnean Society of London",
+                "followers" : "3.4k followers",
+                "promoted": false
+            }
+        }
+        
+    ],
+    "online_more":[
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F827185509%2F111492295925%2F1%2Foriginal.20240814-201123?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C58%2C2000%2C1000&s=e31e068d4ecfcba2de61d95214365eab",
+                "title" : "How Many Moths and Butterflies? The Importance of Taxonomy",
+                "date" : "Tue, Jan 7 •  6:30 PM  GMT+5:30",
+                "price" : "From $1.00",
+                "hostName" : "The Biological Recording Company",
+                "followers" : "3.2k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F904411753%2F2194481678623%2F1%2Foriginal.20241122-055625?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=3.63636363636e-05&fp-y=4.35e-05&s=4d9ab725e7e464739bdfb2820cdc753e",
+                "title" : "January 2024 Job Market Trends + Recruiter Advice + Use AI Resume Tools!",
+                "date" : "Thu, Jan 9 •  1:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "Up Your App",
+                "followers" : "2.6k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F874125149%2F157764583356%2F1%2Foriginal.20241014-165456?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fde6259f8ba2774e92a9555f7e9cbb17",
+                "title" : "Linnean Lens | Leonhard Fuchs's History of Plants (1542)",
+                "date" : "Tue, Jan 14 •  7:30 PM  GMT+5:30",
+                "price" : "From £10.00",
+                "hostName" : "Linnean Society of London",
+                "followers" : "3.4k followers",
+                "promoted": false
+            }
+        },
+
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F880233413%2F520333162043%2F1%2Foriginal.20241022-022153?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.527237354086&fp-y=0.13326848249&s=c8ed533284cafc00996636bae8d5b382",
+                "title" : "VIRTUAL Financial Literacy MasterClass",
+                "date" : "Friday •  7:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "Lisa Skyye",
+                "followers" : "186 followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F876600869%2F564084544807%2F1%2Foriginal.20241017-021519?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e8fb6bdd6e2823b0ba8e488efe16b32a",
+                "title" : "Learn_2_Code: Online JavaScript Coding & Mentorship Sessions",
+                "date" : "Wednesday • 6:30 AM GMT+5:30",
+                "price" : "From $10.00",
+                "hostName" : "Fernando Trejo",
+                "followers" : "729 followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F923146653%2F1985467338753%2F1%2Foriginal.20241225-061202?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C36%2C1200%2C600&s=eb0b22d12f22a26b446f280890a0e121",
+                "title" : "Upcoming Dubai Real Estate Expo in Coimbatore",
+                "date" : "Sat, Jan 25 •  10:00 AM",
+                "price" : "Free",
+                "hostName" : "Jasbier Sachdev",
+                "followers" : "399 followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F791577699%2F134991972179%2F1%2Foriginal.20240618-071500?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=6%2C0%2C1256%2C628&s=23b86161cb85164cb92f77601e55d6b8",
+                "title" : "Enneagram Type FIVE for Christians - the Investigator - Intro & Q/A",
+                "date" : "Wed, Jan 25 •  6:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "CoCreative Intimacy",
+                "followers" : "194 followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F893814753%2F788315226653%2F1%2Foriginal.20241107-104959?crop=focalpoint&fit=crop&h=200&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6632aac3235c7eedee5ed07beecd821d",
+                "title" : "Formula Bharat 2025: India's Formula Student Competition",
+                "date" : "Wed, Jan 22 •  9:00 AM + 5 more",
+                "price" : "From $7.52",
+                "hostName" : "Kari Motor Speedway Racetrack",
+                "followers" : "2.9k followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F851037089%2F647919780083%2F1%2Foriginal.20240916-085007?crop=focalpoint&fit=crop&h=184&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511742401123&fp-y=0.866015526217&s=a8573d099fe8aafa9d08fa178e172d11",
+                "title" : "Coimbatore: 21 Day- Free Kundalini Inner Energy Awakening Meditation",
+                "date" : "Mon, Jan 27 •  7:15 AM",
+                "price" : "Free",
+                "hostName" : "Kundalini Awakening Through Meditation",
+                "followers" : "784 followers",
+                "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
+                "title" : "Narcissistic Abuse Recovery Support Group",
+                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "price" : "Free",
+                "hostName" : "ShareWell",
+                "followers" : "2.9k followers",
+                "promoted": true
             }
         },
         {
