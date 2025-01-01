@@ -30,7 +30,9 @@
                 "price" : "From £0.00",
                 "hostName" : "Action for Happiness",
                 "followers" : "22.1k followers",
-                "promoted": false
+                "promoted": false,
+                "category" : "online"
+                
             }
         },
         {
@@ -52,7 +54,8 @@
                 "price" : "From $1.00",
                 "hostName" : "Jessica Lanyadoo",
                 "followers" : "521 followers",
-                "promoted": false
+                "promoted": false,
+                "category" : "online"
             }
         },
         {
@@ -75,7 +78,8 @@
                 "price" : "Free",
                 "hostName" : "Blue Ridge PRISM (Virginia)",
                 "followers" : "851 followers",
-                "promoted": false
+                "promoted": false,
+                "category" : "online"
             }
         },
         {
@@ -97,7 +101,8 @@
                 "price" : "Free",
                 "hostName" : "The Biological Recording Company",
                 "followers" : "3.2k followers",
-                "promoted":false
+                "promoted":false,
+                "category":"online"
             }
         },
         {
@@ -152,18 +157,31 @@
                 "price" : "Free",
                 "hostName" : "Up Your App",
                 "followers" : "2.6k followers",
-                "promoted": false
+                "promoted": false,
+                "category" : "online"
             }
         },
         {
             "eventCard":{
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F874125149%2F157764583356%2F1%2Foriginal.20241014-165456?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=fde6259f8ba2774e92a9555f7e9cbb17",
                 "title" : "Linnean Lens | Leonhard Fuchs's History of Plants (1542)",
-                "date" : "Tue, Jan 14 •  7:30 PM  GMT+5:30",
+                "date" : "Today•  7:30 PM  GMT+5:30",
                 "price" : "From £10.00",
                 "hostName" : "Linnean Society of London",
                 "followers" : "3.4k followers",
                 "promoted": false
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F921456183%2F2222649774653%2F1%2Foriginal.20241221-173953?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=3b8cf8b62a615b53b3ed2c97401a0199",
+                "title" : "Women Unlock Your Full Manifesting Potential: A 4-Week Vision Board Retreat",
+                "date" : "Sat, Jan 18 •  10:30 PM  GMT+5:30",
+                "price" : "From $240.00",
+                "hostName" : "Krista Hawkins, Art Therapist & Art Life Coach",
+                "followers" : "695 followers",
+                "promoted": true,
+                "category" : "music"
             }
         }
         
@@ -177,7 +195,8 @@
                 "price" : "Free",
                 "hostName" : "ShareWell",
                 "followers" : "2.9k followers",
-                "promoted": true
+                "promoted": true,
+                "category" : "online"
             }
         },
         {
@@ -232,7 +251,8 @@
                 "price" : "From £10.00",
                 "hostName" : "Linnean Society of London",
                 "followers" : "3.4k followers",
-                "promoted": false
+                "promoted": false,
+                "category": "online"
             }
         },
 
@@ -241,7 +261,7 @@
             "eventCard":{
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F880233413%2F520333162043%2F1%2Foriginal.20241022-022153?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.527237354086&fp-y=0.13326848249&s=c8ed533284cafc00996636bae8d5b382",
                 "title" : "VIRTUAL Financial Literacy MasterClass",
-                "date" : "Friday •  7:30 AM  GMT+5:30",
+                "date" : "Wednesday •  7:30 AM  GMT+5:30",
                 "price" : "Free",
                 "hostName" : "Lisa Skyye",
                 "followers" : "186 followers",
@@ -256,7 +276,8 @@
                 "price" : "From $10.00",
                 "hostName" : "Fernando Trejo",
                 "followers" : "729 followers",
-                "promoted": true
+                "promoted": true,
+                "category": "online"
             }
         },
         {
@@ -274,11 +295,12 @@
             "eventCard":{
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F791577699%2F134991972179%2F1%2Foriginal.20240618-071500?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=6%2C0%2C1256%2C628&s=23b86161cb85164cb92f77601e55d6b8",
                 "title" : "Enneagram Type FIVE for Christians - the Investigator - Intro & Q/A",
-                "date" : "Wed, Jan 25 •  6:30 AM  GMT+5:30",
+                "date" : "Today •  6:30 AM  GMT+5:30",
                 "price" : "Free",
                 "hostName" : "CoCreative Intimacy",
                 "followers" : "194 followers",
-                "promoted": true
+                "promoted": true,
+                "category": "online"
             }
         },
         {
@@ -296,11 +318,12 @@
             "eventCard":{
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F851037089%2F647919780083%2F1%2Foriginal.20240916-085007?crop=focalpoint&fit=crop&h=184&w=480&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511742401123&fp-y=0.866015526217&s=a8573d099fe8aafa9d08fa178e172d11",
                 "title" : "Coimbatore: 21 Day- Free Kundalini Inner Energy Awakening Meditation",
-                "date" : "Mon, Jan 27 •  7:15 AM",
+                "date" : "Today •  7:15 AM",
                 "price" : "Free",
                 "hostName" : "Kundalini Awakening Through Meditation",
                 "followers" : "784 followers",
-                "promoted": false
+                "promoted": false,
+                "category": "online"
             }
         },
         {
@@ -362,7 +385,7 @@
             "eventCard":{
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
                 "title" : "Narcissistic Abuse Recovery Support Group",
-                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
+                "date" : "Today •  8:30 AM  GMT+5:30",
                 "price" : "Free",
                 "hostName" : "ShareWell",
                 "followers" : "2.9k followers",

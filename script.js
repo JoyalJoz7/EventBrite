@@ -75,3 +75,11 @@ document.addEventListener('DOMContentLoaded',function(){
         this.placeholder = 'Online'
     });
 })
+
+
+// HELP CENTER 
+
+const help_center = document.querySelector('.help-center')
+const help_dropdn = document.querySelector('.help-dropdn')
+
+help_center.addEventListener('click',() => help_dropdn.classList.toggle('active'))

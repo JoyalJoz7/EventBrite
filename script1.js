@@ -47,6 +47,12 @@ function renderEvents(events, containerSelector) {
                             <span class="md-bold-para">${event.eventCard.followers}</span>
                         </div>
                     </div>
+                    <section class= "event-card-actions">
+                        <div><button class ="event-actions">
+                        <i class="eds-vector-image eds-icon--small eds-vector-image--grey-700 eds-vector-image--block" title="" data-spec="icon" data-testid="icon"><svg id="heart-chunky_svg__eds-icon--user-chunky_svg" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve"><path id="heart-chunky_svg__eds-icon--heart-chunky_base" fill-rule="evenodd" clip-rule="evenodd" d="M18.8 6.2C18.1 5.4 17 5 16 5c-1 0-2 .4-2.8 1.2L12 7.4l-1.2-1.2C10 5.4 9 5 8 5c-1 0-2 .4-2.8 1.2-1.5 1.6-1.5 4.2 0 5.8l6.8 7 6.8-7c1.6-1.6 1.6-4.2 0-5.8zm-1.4 4.4L12 16.1l-5.4-5.5c-.8-.8-.8-2.2 0-3C7 7.2 7.5 7 8 7c.5 0 1 .2 1.4.6l2.6 2.7 2.7-2.7c.3-.4.8-.6 1.3-.6s1 .2 1.4.6c.8.8.8 2.2 0 3z"></path></svg><span class="eds-is-hidden-accessible">Save this event: Women Unlock Your Full Manifesting Potential: A 4-Week Vision Board Retreat</span></i></div>
+                        <div><button class = "event-actions"> <i class="eds-vector-image eds-icon--small eds-vector-image--block" title="" data-spec="icon" data-testid="icon"><svg id="share-ios-chunky_svg__eds-icon--share-ios-chunky_svg" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve"><path id="share-ios-chunky_svg__eds-icon--share-ios-chunky_base" fill-rule="evenodd" clip-rule="evenodd" d="M18 16v2H6v-2H4v4h16v-4z"></path><path id="share-ios-chunky_svg__eds-icon--share-ios-chunky_arrow" fill-rule="evenodd" clip-rule="evenodd" d="M12 4L7 9l1.4 1.4L11 7.8V16h2V7.8l2.6 2.6L17 9l-5-5z"></path></svg><span class="eds-is-hidden-accessible">Share this event: Women Unlock Your Full Manifesting Potential: A 4-Week Vision Board Retreat</span></i></div>
+                        <div><button class = "event-actions"> <i class="eds-vector-image eds-icon--small eds-vector-image--block" title="" data-spec="icon" data-testid="icon"><svg id="horizontal-dots-chunky_svg__eds-icon--horizontal-dots-chunky_svg" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve"><path id="horizontal-dots-chunky_svg__eds-icon--horizontal-dots-chunky_dot_2" fill-rule="evenodd" clip-rule="evenodd" d="M16 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"></path><circle id="horizontal-dots-chunky_svg__eds-icon--horizontal-dots-chunky_dot_1" fill-rule="evenodd" clip-rule="evenodd" cx="12" cy="12" r="2"></circle><circle id="horizontal-dots-chunky_svg__eds-icon--horizontal-dots-chunky_dot" fill-rule="evenodd" clip-rule="evenodd" cx="6" cy="12" r="2"></circle></svg><span class="eds-is-hidden-accessible">Promoted event actions</span></i></div>
+                    </section>
                 </div>
             </section>
         </div>`;
@@ -80,19 +86,45 @@ function filterEvents(filter) {
     } else if (filter === 'free') {
         filteredMainEvents = allEvents.filter(event => event.eventCard.price.toLowerCase() === 'free');
         filteredMoreEvents = moreEvents.filter(event => event.eventCard.price.toLowerCase() === 'free');
+    }else if(filter === 'music'){
+        filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'music')
+        filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'music')
+    }else if(filter === 'online'){
+        filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'online')
+        filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'online')
     }
 
     renderEvents(filteredMainEvents, '.events-cards-container');
     renderEvents(filteredMoreEvents, '.event-cards-bottom-section');
 }
 
-
+const head = document.querySelector('.sec-section-head')
 
 // Add event listeners
-document.getElementById('all').addEventListener('click', () => filterEvents('all'));
-document.getElementById('today').addEventListener('click', () => filterEvents('today'));
-document.getElementById('this-weekend').addEventListener('click', () => filterEvents('this-weekend'));
-document.getElementById('free').addEventListener('click', () => filterEvents('free'));
+document.getElementById('all').addEventListener('click', () => {
+    filterEvents('all')
+    head.innerText = 'More online events'
+});
+document.getElementById('today').addEventListener('click', () => {
+    filterEvents('today')
+    head.innerText = 'More events today'
+});
+document.getElementById('this-weekend').addEventListener('click', () => {
+    filterEvents('this-weekend')
+    head.innerText = 'More events this weekend'
+});
+document.getElementById('free').addEventListener('click', () => {
+    filterEvents('free')
+    head.innerText = 'More free events'
+});
+document.getElementById('music').addEventListener('click',() =>{
+    filterEvents('music')
+    head.innerText = 'More music events'
+});
+document.getElementById('online').addEventListener('click', () => {
+    filterEvents('online')
+    head.innerText ='More online events'
+})
 
 
 
