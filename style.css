@@ -147,7 +147,7 @@ body,div,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,textarea,ul {
     visibility: visible;
 }
 
-.mobile-dropdn .cross-btn{
+.cross-btn{
     display:none;
     cursor:pointer;
 }
@@ -167,6 +167,12 @@ body,div,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,textarea,ul {
     width:240px;
     z-index:1000;
     visibility:hidden;
+}
+.threeline-dropdn.active .cross-btn{
+    display: block;
+}
+.threeline-dropdn.active .hamburger{
+    display:none;
 }
 
 .threeline-dropdn.active{
@@ -674,7 +680,6 @@ circle {
 .field-styled-input {
     height: auto;
     padding: 12px 0;
-    /* padding-left:2px; */
     border: none;
     background: none;
     min-height: 23px;
@@ -1516,6 +1521,9 @@ button:has(.eds-text.active){
 }
 
 @media screen and (min-width:661px){
+    .field-styled-input{
+        padding-left:2px;
+    }
     .carousel-navigation{
         display:flex;
     }
@@ -1580,14 +1588,11 @@ button:has(.eds-text.active){
     }
     .typography-root{
         padding:0 12px;
-        height:43px;
+        height:42px;
     }
     .searchbar-label-container{
         padding-left:0;
     }
-    /* .search-button-container{
-        margin-right:4px;
-    } */
 
     .hidden-online-bar{
         display:flex;
@@ -1663,9 +1668,8 @@ button:has(.eds-text.active){
     }
 
     .location-holder-internal label{
-        /* padding-top: 3px; */
+        padding-top: 2px;
         margin-left: -1px;
-        /* padding-right: 1px; */
     }
     .location-holder-internal label svg{
         fill:#4b4d63;
@@ -1682,6 +1686,17 @@ button:has(.eds-text.active){
 }
 
 @media screen and (min-width:792px){
+    .browse-location{
+        padding:12px 16px;
+    }
+
+    .eds-layout-body{
+        padding:0 24px;
+    }
+
+    .eds-1-pad-vert-3{
+        padding:0 16px;
+    }
 
     .footer-innertwo{
         display:flex;
@@ -1739,6 +1754,13 @@ button:has(.eds-text.active){
     }
     .navlink-module-main[href="signup"]{
         padding:12px 20px;
+    }
+}
+
+@media (min-width:960px) and (max-width:1079px){
+    .eds-1-pad-hor-2{
+        padding-left:12px;
+        padding-right:12px;
     }
 }
 
@@ -1866,6 +1888,12 @@ button:has(.eds-text.active){
     }
 }
 
+@media (min-width:1080px) and (max-width:1151px){
+    .eds-1-pad-hor-2{
+        padding-left:16px;
+        padding-right:16px;
+    }
+}
 
 @media screen and (min-width:1272px){
     .feed-card-cell{

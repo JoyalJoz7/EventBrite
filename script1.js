@@ -1,17 +1,16 @@
-// Assume `data` is already fetched and available
-let allEvents = []; // For main events
-let moreEvents = []; // For additional events
+let allEvents = [];
+let moreEvents = [];
 
 fetch('content.json')
     .then(response => response.json())
     .then(data => {
-        allEvents = data.online; // Main dataset
-        moreEvents = data.online_more; // Additional dataset
-        renderEvents(allEvents, '.events-cards-container'); // Render main events
-        renderEvents(moreEvents, '.event-cards-bottom-section'); // Render additional events
+        allEvents = data.online.slice(0,8);
+        moreEvents = data.online_more.slice(0,8); 
+        renderEvents(allEvents, '.events-cards-container');
+        renderEvents(moreEvents, '.event-cards-bottom-section');
     });
 
-// Function to render events
+
 function renderEvents(events, containerSelector) {
     const container = document.querySelector(containerSelector);
     container.innerHTML = ''; // Clear existing content in the container
@@ -60,15 +59,15 @@ function renderEvents(events, containerSelector) {
     });
 }
 
-// Function to filter events for both containers
+
 function filterEvents(filter) {
     const today = new Date();
     let filteredMainEvents = [];
     let filteredMoreEvents = [];
 
     if (filter === 'all') {
-        filteredMainEvents = allEvents;
-        filteredMoreEvents = moreEvents;
+        filteredMainEvents = allEvents.slice(0,8);
+        filteredMoreEvents = moreEvents.slice(0,8);
     } else if (filter === 'today') {
         filteredMainEvents = allEvents.filter(event => event.eventCard.date.includes('Today'));
         filteredMoreEvents = moreEvents.filter(event => event.eventCard.date.includes('Today'));
@@ -76,12 +75,12 @@ function filterEvents(filter) {
         filteredMainEvents = allEvents.filter(event => {
             const eventDate = new Date(event.eventCard.date);
             const day = eventDate.getDay();
-            return day === 6 || day === 0; // Saturday or Sunday
+            return day === 6 || day === 0;
         });
         filteredMoreEvents = moreEvents.filter(event => {
             const eventDate = new Date(event.eventCard.date);
             const day = eventDate.getDay();
-            return day === 6 || day === 0; // Saturday or Sunday
+            return day === 6 || day === 0;
         });
     } else if (filter === 'free') {
         filteredMainEvents = allEvents.filter(event => event.eventCard.price.toLowerCase() === 'free');
@@ -92,6 +91,9 @@ function filterEvents(filter) {
     }else if(filter === 'online'){
         filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'online')
         filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'online')
+    }else if(filter === 'sports'){
+        filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'sports')
+        filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'sports')
     }
 
     renderEvents(filteredMainEvents, '.events-cards-container');
@@ -100,7 +102,6 @@ function filterEvents(filter) {
 
 const head = document.querySelector('.sec-section-head')
 
-// Add event listeners
 document.getElementById('all').addEventListener('click', () => {
     filterEvents('all')
     head.innerText = 'More online events'
@@ -124,6 +125,10 @@ document.getElementById('music').addEventListener('click',() =>{
 document.getElementById('online').addEventListener('click', () => {
     filterEvents('online')
     head.innerText ='More online events'
+})
+document.getElementById('sports').addEventListener('click', () => {
+    filterEvents('sports')
+    head.innerText = 'More events for sports'
 })
 
 

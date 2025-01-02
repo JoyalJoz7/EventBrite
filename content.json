@@ -183,6 +183,94 @@
                 "promoted": true,
                 "category" : "music"
             }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F917168263%2F70260958857%2F1%2Foriginal.20241213-195705?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a63154cc8105bd1d8b1c946fc3d7f8fe",
+                "title" : "UNLOCKING TEAM GENIUS: Developing High-Performing Leadership Teams",
+                "date" : "Thu, Jan 30 •  11:30 PM  GMT+5:30",
+                "price" : "From $24.50",
+                "hostName" : "Julius Csizmazia",
+                "followers" : "174 followers",
+                "promoted": true,
+                "category" : "music"
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F911774693%2F83545705657%2F1%2Foriginal.20241204-205642?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=0f82e15452cfccdb2bb491234a7155a2",
+                "title" : "New Year's Day Yin Yoga & Tibetan Bowls",
+                "date" : "Tomorrow •  4:30 AM  GMT+5:30",
+                "price" : "From $20.00",
+                "hostName" : "Paul Temple",
+                "followers" : "435 followers",
+                "promoted": false,
+                "category" : "music"
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F661255389%2F189787382742%2F1%2Foriginal.20231220-042046?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C527%2C1080%2C540&s=7d5731353ac42cba19019edaaf10ac8f",
+                "title" : "The Art of Mindful Singing 9-Week New Year Series (on Zoom)",
+                "date" : "Fri, Jan 24 • 3:00 AM GMT+5:30",
+                "price" : "From $97.00",
+                "hostName" : "Heather Houston",
+                "followers" : "1.3k followers",
+                "promoted": false,
+                "category" : "music"
+            }
+        },
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F897049533%2F2109818304673%2F1%2Foriginal.20241112-090807?w=334&auto=format%2Ccompress&q=75&sharp=10&s=78af65f9c61b91ebada6e352ee40edec",
+                "title" : "Fitness, Sports and Nutrition Training",
+                "date" : "Mon, Dec 22 • 3:30 PM  GMT+5:30",
+                "price" : "From $11.00",
+                "hostName" : "Studyhub",
+                "followers" : "5.1k followers",
+                "promoted": true,
+                "category":"sports"
+            }
+        },
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F867149199%2F1351850653353%2F1%2Foriginal.png?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C940%2C470&s=0b8384366bf852d2d5019260d7dd09e4",
+                "title" : "Artificial Intelligence for sports Science, sports commentary, sport analysis and predictions",
+                "date" : "Sat, Mar 29 • 7:30 PM  GMT+5:30",
+                "price" : "From $128.93",
+                "hostName" : "ASONGWE ARTIFICIAL INTELLIGENCE CONSULTANCY",
+                "followers" : "161 followers",
+                "promoted": "false",
+                "category":"sports"
+            }
+        },
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F721858389%2F1809255369333%2F1%2Foriginal.20240318-055541?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C1718%2C2992%2C1496&s=ac59a82563950842257add1b64d76b19",
+                "title" : "REALTORS® Only: Help Clients Protest Property Taxes (with 2024 data!)",
+                "date" : "Tue, Feb 4 • 10:00 PM  GMT+5:30",
+                "price" : "From $9.00",
+                "hostName" : "EZPropTax LLC",
+                "followers" : "155 followers",
+                "promoted": true,
+                "category":"sports"
+            }
+        },
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F516792979%2F44603857607%2F1%2Foriginal.20230517-143658?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C240%2C3840%2C1920&s=5e33e9a3c72bb52a0b353ff09f345ae8",
+                "title" : "Crush Your Competition and Boost Sales with AI-Powered Micro SEO",
+                "date" : "Thu, Jan 30 • 10:00 PM  GMT+5:30",
+                "price" : "From $19.00",
+                "hostName" : "SEO Training Courses by BSM",
+                "followers" : "1.2k followers",
+                "promoted": true,
+                "category":"sports"
+            }
         }
         
     ],
@@ -204,7 +292,7 @@
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
                 "title" : "Narcissistic Abuse Recovery Support Group",
                 "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
-                "price" : "Free",
+                "price" : "From $24.50",
                 "hostName" : "ShareWell",
                 "followers" : "2.9k followers",
                 "promoted": true
@@ -215,7 +303,7 @@
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
                 "title" : "Narcissistic Abuse Recovery Support Group",
                 "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
-                "price" : "Free",
+                "price" : "From $24.50",
                 "hostName" : "ShareWell",
                 "followers" : "2.9k followers",
                 "promoted": true
@@ -226,7 +314,7 @@
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F827185509%2F111492295925%2F1%2Foriginal.20240814-201123?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C58%2C2000%2C1000&s=e31e068d4ecfcba2de61d95214365eab",
                 "title" : "How Many Moths and Butterflies? The Importance of Taxonomy",
                 "date" : "Tue, Jan 7 •  6:30 PM  GMT+5:30",
-                "price" : "From $1.00",
+                "price" : "From $24.50",
                 "hostName" : "The Biological Recording Company",
                 "followers" : "3.2k followers",
                 "promoted": false
@@ -255,8 +343,6 @@
                 "category": "online"
             }
         },
-
-
         {
             "eventCard":{
                 "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F880233413%2F520333162043%2F1%2Foriginal.20241022-022153?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.527237354086&fp-y=0.13326848249&s=c8ed533284cafc00996636bae8d5b382",
@@ -350,46 +436,99 @@
         },
         {
             "eventCard":{
-                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
-                "title" : "Narcissistic Abuse Recovery Support Group",
-                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
-                "price" : "Free",
-                "hostName" : "ShareWell",
-                "followers" : "2.9k followers",
-                "promoted": true
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F903568293%2F1062964567773%2F1%2Foriginal.20241121-030309?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.488636363636&fp-y=0.0649105483271&s=cc8f5023d4bcfac5a8c7e5972d5d98b4",
+                "title" : "2025 Glitter & Goal-Setting Party for Empaths & Highly Sensitives (HSP)",
+                "date" : "Sat, Jan 18 •  10:30 PM  GMT+5:30",
+                "price" : "From $55.00",
+                "hostName" : "Instant Ease With Presh",
+                "followers" : "610 followers",
+                "promoted": true,
+                "category" :"music"
             }
         },
         {
             "eventCard":{
-                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
-                "title" : "Narcissistic Abuse Recovery Support Group",
-                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
-                "price" : "Free",
-                "hostName" : "ShareWell",
-                "followers" : "2.9k followers",
-                "promoted": true
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F915063333%2F125922360217%2F1%2Foriginal.20241210-184211?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=83%2C0%2C800%2C400&s=bafd558bd569b1b62cf27092c34f57b6",
+                "title" : "Songwriting Sisterhood - Listening Session with Cinder Ernst",
+                "date" : "Thu, Jan 9 • 1:30 AM  GMT+5:30",
+                "price" : "From $1.00",
+                "hostName" : "Jessica Julia",
+                "followers" : "25 followers",
+                "promoted": true,
+                "category" : "music"
             }
         },
         {
             "eventCard":{
-                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
-                "title" : "Narcissistic Abuse Recovery Support Group",
-                "date" : "Tue, Feb 25 •  8:30 AM  GMT+5:30",
-                "price" : "Free",
-                "hostName" : "ShareWell",
-                "followers" : "2.9k followers",
-                "promoted": true
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F912234403%2F63649492301%2F1%2Foriginal.20241205-150928?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.0265151515152&fp-y=0.505597014925&s=c28f5cc3e2d6fc0cb48cf99469f72ff6",
+                "title" : "'Elvis: Examining the King of Rock & Roll' Webinar",
+                "date" : "Thu, Jan 9 • 5:30 AM  GMT+5:30",
+                "price" : "From $12.00",
+                "hostName" : "New York Adventure Club",
+                "followers" : "41.9k followers",
+                "promoted": false,
+                "category" : "music"
             }
         },
         {
             "eventCard":{
-                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F891836183%2F558338266469%2F1%2Foriginal.20240719-152802?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C52%2C1084%2C542&s=18e81ee5cf03e604edefc7c8282459a8",
-                "title" : "Narcissistic Abuse Recovery Support Group",
-                "date" : "Today •  8:30 AM  GMT+5:30",
-                "price" : "Free",
-                "hostName" : "ShareWell",
-                "followers" : "2.9k followers",
-                "promoted": true
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F467166859%2F1344345462213%2F1%2Foriginal.jpg?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=2d2a8cf97006e9eb4fdef54f5cb152af",
+                "title" : "Qigong Flow Foundations Winter Workshop",
+                "date" : "Tomorrow • 11:30 PM GMT+5:30",
+                "price" : "From $29.00",
+                "hostName" : "Bright Spirit Wellness LLC",
+                "followers" : "619 followers",
+                "promoted": true,
+                "category":"music"
+            }
+        },
+
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F899612553%2F2112176577833%2F1%2Foriginal.20241115-063151?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=db20c85b4ed1bbe03b48161cb95cd1ae",
+                "title" : "Tending the Fire: For tired leaders who need permission to rest.",
+                "date" : "Thu, Jan 16 • 8:00 PM  GMT+5:30",
+                "price" : "From $29.00",
+                "hostName" : "Jenevieve Hubbard | Nature Coach for Tired Leaders",
+                "followers" : "32 followers",
+                "promoted": true,
+                "category":"sports"
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F425426549%2F58034695939%2F1%2Foriginal.20230116-124651?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C4%2C600%2C300&s=2484b95b799c0f15d886bfe53d5c8849",
+                "title" : "NWG Combating Child Sexual Exploitation in Sport - Updated Content",
+                "date" : "Thu, Jan 16 • 3:30 PM  GMT+5:30",
+                "price" : "From $63.10",
+                "hostName" : "NWG Exploitation Network",
+                "followers" : "1.5k followers",
+                "promoted": false,
+                "category":"sports"
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F901175563%2F132654459331%2F1%2Foriginal.20241118-130803?w=401&auto=format%2Ccompress&q=75&sharp=10&s=b7413fa052bd40818d2ae79ee86b193b",
+                "title" : "Bid Writing for Sports & Physical Activity Workshop",
+                "date" : "Tue, Mar 4 •  11:30 PM  GMT+5:30",
+                "price" : "From $21.98",
+                "hostName" : "Get Grants",
+                "followers" : "3.3k followers",
+                "promoted": false,
+                "category":"sports"
+            }
+        },
+        {
+            "eventCard":{
+                "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F915558323%2F126330058265%2F1%2Foriginal.20200615-104602?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1080%2C540&s=67e86ee74256328c4e8d5a85b3cab7a5",
+                "title" : "Child Wellbeing & Protection in Sport: Officer Training",
+                "date" : "Mon, Jan 20 •  11:30 PM  GMT+5:30",
+                "price" : "From $29.00",
+                "hostName" : "Scottish Golf",
+                "followers" : "462 followers",
+                "promoted": false,
+                "category":"sports"
             }
         }
     ]
