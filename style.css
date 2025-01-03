@@ -168,12 +168,6 @@ body,div,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,textarea,ul {
     z-index:1000;
     visibility:hidden;
 }
-.threeline-dropdn.active .cross-btn{
-    display: block;
-}
-.threeline-dropdn.active .hamburger{
-    display:none;
-}
 
 .threeline-dropdn.active{
     visibility: visible;
@@ -346,6 +340,11 @@ body,div,fieldset,form,h1,h2,h3,h4,h5,h6,input,li,ol,p,textarea,ul {
     margin-right:8px;
     display: flex;
     align-items: center;
+}
+
+.divider-hr{
+    border:none;
+    background:#a9a8b3;
 }
 
 .location-container{
@@ -611,9 +610,14 @@ circle {
 }
 
 .eds-layout-body{
-    margin: 0 auto;
-    max-width: 1272px;
+    /* margin: 0 auto;
+    max-width: 1272px; */
     padding:0 16px;
+}
+
+.container{
+    max-width:1272px;
+    margin:0 auto;
 }
 
 .browse-location {
@@ -628,6 +632,7 @@ circle {
     font-weight: 600;
     letter-spacing: .25px;
     line-height: 24px;
+    color:#39364F;
 }
 
 .location-autocomplete {
@@ -905,18 +910,17 @@ button:has(.eds-text.active){
 
 
 .event-card-image-container{
-    aspect-ratio: 2,2,2;
+    aspect-ratio: 2/1;
     background:#fff;
     border-radius:4px;
     display:flex;
     overflow:hidden;
     position:relative;
-    width:100%,100%,100%;
+    width:100%;
     flex-direction:column;
 }
 
 .event-card-image{
-    background:#9199aa,#eeedf2;
     height: 100%;
     width:100%;
     flex:1 1 100%;
@@ -1009,7 +1013,11 @@ button:has(.eds-text.active){
     font-family:light;
     font-size:.875rem;
 }
-
+.promoted-div .eds-vector-image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 .help-sm-icon-div{
     background:none;
     border:none;
@@ -1166,7 +1174,7 @@ button:has(.eds-text.active){
     width:40px;
 }
 
-.btm-btn-carousel:first-child svg{
+.btm-btn-carousel:disabled:first-child svg{
     fill:#c1bdc7;
 }
 
@@ -1270,8 +1278,8 @@ button:has(.eds-text.active){
 
 
 .infra-tags{
-    /* -webkit-mask-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(20%, #fff));
-    -webkit-mask-image: linear-gradient(270deg, transparent, #fff 20%); */
+    -webkit-mask-image: -webkit-gradient(linear, right top, left top, from(transparent), color-stop(20%, #fff));
+    -webkit-mask-image: linear-gradient(270deg, transparent, #fff 20%);
     overflow-x: auto;
     padding-top:40px;
     padding-bottom:17px;
@@ -1653,6 +1661,10 @@ button:has(.eds-text.active){
         width:50%;
         padding:8px;
     }
+    .feed-card-cell:nth-child(odd){
+        padding-left: 0;
+    }
+
     .eds-field-input{
         font-size:14px;
     }
@@ -1669,7 +1681,7 @@ button:has(.eds-text.active){
 
     .location-holder-internal label{
         padding-top: 2px;
-        margin-left: -1px;
+        /* margin-left: -1px; */
     }
     .location-holder-internal label svg{
         fill:#4b4d63;
@@ -1683,11 +1695,23 @@ button:has(.eds-text.active){
     .hidden-infra-tags{
         display:block;
     }
+    .infra-tags{
+        padding-bottom:0;
+    }
 }
 
 @media screen and (min-width:792px){
+    .sec-section-head{
+        padding-left:12px;
+        padding-right:12px;
+    }
+
+    .region-div .eds-vector-image{
+        bottom:50%;
+    }
     .browse-location{
-        padding:12px 16px;
+        padding-left:16px;
+        padding-right:16px;
     }
 
     .eds-layout-body{
@@ -1703,6 +1727,7 @@ button:has(.eds-text.active){
     }
     .copyright{
         width:16.6666666667%;
+
     }
 
     .general-links{
@@ -1717,12 +1742,18 @@ button:has(.eds-text.active){
         width:33.3333333333%;
         padding:16px;
     }
+    .feed-card-cell:nth-child(odd){
+        padding:16px;
+    }
+
     .hidden-mediaque-nav{
         display:block;
     }
+
     .mobile-nav-search{
         display:none;
     }
+
     .nav-searchbar{
         width:auto;
         flex-grow:1;
@@ -1744,6 +1775,38 @@ button:has(.eds-text.active){
     }
 
 }
+@media screen and (min-width:793px){
+    .general-links{
+        padding-block:16px;
+    }
+    .region-div .eds-vector-image{
+        bottom:65%;
+    }
+    .copyright{
+        text-align:left;
+    }
+    .destination-name p{
+        font-size:32px;
+    }
+    .destination-name{
+        bottom:34px;
+    }
+}
+
+@media screen and (min-width:827px){
+    .region-div .eds-vector-image{
+        bottom:55%;
+    }   
+}
+
+@media screen and (min-width:960px){
+    .foot-p{
+        font-size:14px;
+    }
+    .hidden-bullets{
+        display:none;
+    }
+}
 
 @media screen and (min-width:961px){
     .navlink-module-main{
@@ -1754,6 +1817,9 @@ button:has(.eds-text.active){
     }
     .navlink-module-main[href="signup"]{
         padding:12px 20px;
+    }
+    .location-holder-internal label{
+        margin-bottom:4px;
     }
 }
 
@@ -1776,7 +1842,7 @@ button:has(.eds-text.active){
         align-items:center;
         justify-content:flex-end;
         flex-wrap:wrap;
-        height:40px;
+        height:44px;
         list-style: none;
     }
     .mediaque-ul-list{
@@ -1791,6 +1857,15 @@ button:has(.eds-text.active){
         line-height: 20px;
         padding:10px 16px;
         height: inherit;
+        text-decoration: none;
+    }
+
+    .ul-list-anchor[href*=login]{
+        padding:12px 16px;
+    }
+
+    .ul-list-anchor[href*=signup]{
+        padding:12px 20px;
     }
 
     .nav-module-links{
@@ -1815,7 +1890,7 @@ button:has(.eds-text.active){
         justify-content: center;
         padding:10px 8px 10px 16px;
         font-size:14px;
-        font-family: light;
+        font-family: regular;
     }
 
     .help-dropdn{
@@ -1888,10 +1963,22 @@ button:has(.eds-text.active){
     }
 }
 
-@media (min-width:1080px) and (max-width:1151px){
+@media screen and (min-width:1080px){
     .eds-1-pad-hor-2{
         padding-left:16px;
         padding-right:16px;
+    }
+}
+
+@media screen and (min-width:1152px){
+    .eds-layout-body{
+        padding:0 48px;
+    }
+}
+
+@media screen and (min-width:1204px){
+    .region-div .eds-vector-image{
+        bottom:38%;
     }
 }
 
@@ -1901,3 +1988,35 @@ button:has(.eds-text.active){
     }
 }
 
+@media screen and (min-width:1273px){
+    .iconCategory-wrapper a:first-child{
+        margin-left:0;
+    }
+    .iconCategory-wrapper{
+        overflow-x:hidden;
+    }
+    .iconCategory-browse{
+        padding:36px 0;
+    }
+}
+
+@media screen and (min-width:1488px) {
+    .mediaque-ul{
+        gap:8px;
+    }
+}
+
+@media (min-width:1272px) and (max-width:1607px){
+    .eds-1-pad-hor-2{
+        padding-inline:16px;
+    }
+}
+
+@media screen and (min-width:1903px){
+    .region-div{
+        justify-content:flex-end;
+    }
+    .region-div .eds-vector-image{
+        bottom:20%;
+    }
+}

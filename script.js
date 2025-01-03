@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const carouselWrapper = document.querySelector('.banner-wrapper');
-    const carouselImages = document.querySelectorAll('.carousel-imgdiv');
+    let carouselWrapper = document.querySelector('.banner-wrapper');
+    let carouselImages = document.querySelectorAll('.carousel-imgdiv');
     const dots = document.querySelectorAll('.dots-container svg');
     let currentIndex = 0;
 
@@ -18,9 +18,18 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCarousel();
     }
 
+    function prevSlide(){
+        currentIndex = (currentIndex - 1 + carouselImages.length) % carouselImages.length
+        updateCarousel() 
+    }
+
+    document.querySelector('.right-arrow-carousel').addEventListener('click',nextSlide)
+    document.querySelector('.left-arrow-carousel').addEventListener('click',prevSlide)
+
     updateCarousel();
     setInterval(nextSlide, 3850);
 });
+
 
 
 const dropdown = document.querySelector('.eds-dropdown')
@@ -47,21 +56,30 @@ document.addEventListener('click', (event) => {
     }
 });
 
-// const top_dropdn = document.querySelector('.eds-dropdown-top')
-// const location_drop = document.querySelector('.location-container')
 
-// location_drop.addEventListener('click',()=> {
-//     top_dropdn.classList.toggle('show')
-// })
+const top_dropdn = document.querySelector('.eds-dropdown-top')
+const location_drop = document.querySelector('.location-holder')
+
+location_drop.addEventListener('click',()=> {
+    console.log(location_drop)
+    top_dropdn.style.visibility='visible'
+})
 
 
-const hamburger = document.querySelector('.mobile-dropdn')
+const hamburger = document.querySelector('.hamburger')
 const cross_btn = document.querySelector('.cross-btn')
 const dropdn_menu = document.querySelector('.threeline-dropdn')
 
 hamburger.addEventListener('click',()=>{
-    dropdn_menu.classList.toggle('active')
+    dropdn_menu.classList.add('active')
+    hamburger.style.display = "none"
+    cross_btn.style.display = 'block' 
+})
 
+cross_btn.addEventListener('click',() => {
+    dropdn_menu.classList.remove('active')
+    hamburger.style.display = 'block'
+    cross_btn.style.display = 'none'
 })
 
 const inputField = document.querySelector('.online-search-input')
@@ -83,3 +101,16 @@ const help_center = document.querySelector('.help-center')
 const help_dropdn = document.querySelector('.help-dropdn')
 
 help_center.addEventListener('click',() => help_dropdn.classList.toggle('active'))
+
+
+
+// topdestination Carousel 
+
+const left_slide = document.querySelector('.left-slide-btn')
+const right_slide = document.querySelector('.right-slide-btn')
+const carousel_div = document.querySelector('.simple-carousel')
+const carousel_slides = document.querySelector('.carousel-slide')
+
+right_slide.addEventListener('click',() => {
+    carousel_slides.style.transform = `translateX(-20%)`
+})

@@ -126,7 +126,7 @@
                                             </div>
                                             <div class="hidden-online-bar">
                                                 <div class="divider-container">
-                                                    <hr data-spec="divider-hr" style="display: inline-block;height: 100%;width: 1px;">
+                                                    <hr class="divider-hr" style="display: inline-block;height: 100%;width: 1px;">
                                                 </div>
                                                 <div class="location-container">
                                                     <div class="location-input-header">
@@ -267,8 +267,8 @@
                                                 
                                             </li>
                                             <li class="mediaque-ul-list"><a class="ul-list-anchor"><span>Find my tickets</span></a></li>
-                                            <li class="mediaque-ul-list"><a class="ul-list-anchor"><span>Log In</span></a></li>
-                                            <li class="mediaque-ul-list"><a class="ul-list-anchor"><span>Sign Up</span></a></li>
+                                            <li class="mediaque-ul-list"><a class="ul-list-anchor" href="login"><span>Log In</span></a></li>
+                                            <li class="mediaque-ul-list"><a class="ul-list-anchor" href="signup"><span>Sign Up</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -321,7 +321,7 @@
                                         </div>
                                         <div class="hidden-online-bar">
                                             <div class="divider-container">
-                                                <hr data-spec="divider-hr" style="display: inline-block;height: 100%;width: 1px;">
+                                                <hr class="divider-hr" style="display: inline-block;height: 100%;width: 1px;">
                                             </div>
                                             <div class="location-container" style="position: relative;">
                                                 <div class="location-input-header">
@@ -464,8 +464,8 @@
                                     </div>
 
                                     <div class="carousel-button-container">
-                                        <button class="carousel-arrow-btn"><i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="M13.766 7 8.83 12l4.936 5 1.397-1.414L11.623 12l3.54-3.585z" clip-rule="evenodd"></path></svg></i></button>
-                                        <button class="carousel-arrow-btn"><i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="m10.224 17 4.936-5-4.936-5-1.397 1.414L12.367 12l-3.54 3.585z" clip-rule="evenodd"></path></svg></i></button>
+                                        <button class="carousel-arrow-btn left-arrow-carousel"><i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="M13.766 7 8.83 12l4.936 5 1.397-1.414L11.623 12l3.54-3.585z" clip-rule="evenodd"></path></svg></i></button>
+                                        <button class="carousel-arrow-btn right-arrow-carousel"><i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="m10.224 17 4.936-5-4.936-5-1.397 1.414L12.367 12l-3.54 3.585z" clip-rule="evenodd"></path></svg></i></button>
                                     </div>
                                 </div>
                                 <div class="browse-section" id="browse-section">
@@ -588,7 +588,7 @@
 
                                     <section class="eds-layout has-horizontal-gutters">
                                         <div class="eds-layout-body">
-                                            <div class="browse-location">
+                                            <div class="browse-location container">
                                                 <h1 class="browse-location-text">Browsing events in</h1>
                                                 <div class="location-autocomplete">
                                                     <div tabindex="-1">
@@ -647,7 +647,7 @@
                                             <div class="eds-tabs">
                                                 <section class="eds-layout">
                                                     <div class="eds-layout-body">
-                                                        <nav class="tabs-navigation eds-1-pad-vert-3 eds-1-mar-bot-3">
+                                                        <nav class="tabs-navigation eds-1-pad-vert-3 eds-1-mar-bot-3 container">
                                                             <ul class="tabs-navigation-list">
                                                                 <li class="tabs-item eds-1-pad-hor-2">
                                                                     <button class="eds-btn--button eds-btn-none" id="all">
@@ -690,12 +690,12 @@
                                                                     </button>
                                                                 </li>
                                                                 <li class="tabs-item eds-1-pad-hor-2">
-                                                                    <button class="eds-btn--button eds-btn-none">
+                                                                    <button class="eds-btn--button eds-btn-none" id="food">
                                                                         <span class="eds-text">Food & Drink</span>
                                                                     </button>
                                                                 </li>
                                                                 <li class="tabs-item eds-1-pad-hor-2">
-                                                                    <button class="eds-btn--button eds-btn-none">
+                                                                    <button class="eds-btn--button eds-btn-none" id="charity-causes">
                                                                         <span class="eds-text">Charity & Causes</span>
                                                                     </button>
                                                                 </li>
@@ -706,7 +706,7 @@
 
                                                 <section class="main-cards">
                                                     <div class="eds-layout-body">
-                                                        <div class="feed-builder">
+                                                        <div class="feed-builder container">
                                                             <section>
                                                                 <div class="feed-events-buckets">
                                                                     <div class="events-bucket-content">
@@ -748,18 +748,18 @@
                                 <div class="bottom-shelf-container">
                                     <section>
                                         <div class="eds-layout-body">
-                                            <div class="top-destinations-container">
+                                            <div class="top-destinations-container container">
                                                 <div class="simple-carousel-wrapper">
                                                     <div class="carousel-header">
                                                         <div>
                                                             <h2 class="bottom-shelf-heads">Top destinations in United States</h2>
                                                         </div>
                                                         <div class="carousel-navigation">
-                                                            <button class="btm-btn-carousel" disabled>
+                                                            <button class="btm-btn-carousel left-slide-btn" disabled>
                                                                 <i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="M13.766 7 8.83 12l4.936 5 1.397-1.414L11.623 12l3.54-3.585z" clip-rule="evenodd"></path></svg></i>
                                                             </button>
                                                             <span style="padding-left: 8px;"></span>
-                                                            <button class="btm-btn-carousel"><i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="m10.224 17 4.936-5-4.936-5-1.397 1.414L12.367 12l-3.54 3.585z" clip-rule="evenodd"></path></svg></i></button>
+                                                            <button class="btm-btn-carousel right-slide-btn"><i class="Icon_root__1kdkz Icon_icon-large__1kdkz" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3A3247" viewBox="0 0 24 24"><path d="m10.224 17 4.936-5-4.936-5-1.397 1.414L12.367 12l-3.54 3.585z" clip-rule="evenodd"></path></svg></i></button>
                                                         </div>
                                                     </div>
                                                     <div class="carousel-container">
@@ -919,7 +919,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="popular-cities-container">
+                                            <div class="popular-cities-container container">
                                                 <h2 class="bottom-shelf-heads">Popular cities</h2>
                                                 <div class="infra-tags">
                                                     <div class="infra-tags-row">
@@ -1044,26 +1044,20 @@
                                                         <div>
                                                             <div class="infra-tag">
                                                                 <a class="infra-tag-link">Things to do in San Antonio</a>
-                                                                <a >
-                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.2907 3.61849V3.61719H6.2168V4.93584H10.0845L3.57227 11.3512L4.51877 12.2836L11.1224 5.7782V9.74552H12.461V3.61849H12.2907Z" fill="#6F7287"></path></svg>
-                                                                </a>
+                                                                <a ><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.2907 3.61849V3.61719H6.2168V4.93584H10.0845L3.57227 11.3512L4.51877 12.2836L11.1224 5.7782V9.74552H12.461V3.61849H12.2907Z" fill="#6F7287"></path></svg></a>
                                                             </div>
                                                         </div>
                                                         <div>
                                                             <div class="infra-tag">
                                                                 <a class="infra-tag-link">Things to do in Indianapolis</a>
-                                                                <a >
-                                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.2907 3.61849V3.61719H6.2168V4.93584H10.0845L3.57227 11.3512L4.51877 12.2836L11.1224 5.7782V9.74552H12.461V3.61849H12.2907Z" fill="#6F7287"></path></svg>
-                                                                </a>
+                                                                <a ><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.2907 3.61849V3.61719H6.2168V4.93584H10.0845L3.57227 11.3512L4.51877 12.2836L11.1224 5.7782V9.74552H12.461V3.61849H12.2907Z" fill="#6F7287"></path></svg></a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="infra-tags-row">
                                                         <div class="infra-tag">
                                                             <a class="infra-tag-link">Things to do in Columbus</a>
-                                                            <a >
-                                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.2907 3.61849V3.61719H6.2168V4.93584H10.0845L3.57227 11.3512L4.51877 12.2836L11.1224 5.7782V9.74552H12.461V3.61849H12.2907Z" fill="#6F7287"></path></svg>
-                                                            </a>
+                                                            <a ><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.2907 3.61849V3.61719H6.2168V4.93584H10.0845L3.57227 11.3512L4.51877 12.2836L11.1224 5.7782V9.74552H12.461V3.61849H12.2907Z" fill="#6F7287"></path></svg></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1077,7 +1071,6 @@
                                 <div class="footer-inner">
                                     <div class="footer-divs">
                                         <p class="foot-p">Use Eventbrite</p>
-
                                         <ul>
                                             <li><a class="footer-link">Create Events</a></li>
                                             <li><a class="footer-link">Pricing</a></li>
@@ -1093,7 +1086,6 @@
                                     </div>
                                     <div class="footer-divs">
                                         <p class="foot-p">Plan Events</p>
-
                                         <ul>
                                             <li><a class="footer-link">Sell Tickets Online</a></li>
                                             <li><a class="footer-link">Event Planning</a></li>
@@ -1109,7 +1101,6 @@
                                     </div>
                                     <div class="footer-divs">
                                         <p class="foot-p">Find Events</p>
-
                                         <ul>
                                             <li><a class="footer-link">New Orleans Food & Drink Events</a></li>
                                             <li><a class="footer-link">San Francisco Holiday Events</a></li>
@@ -1125,7 +1116,6 @@
                                     </div>
                                     <div class="footer-divs">
                                         <p class="foot-p">Connect With Us</p>
-
                                         <ul>
                                             <li><a class="footer-link">Contact Support</a></li>
                                             <li><a class="footer-link">Contact Sales</a></li>
@@ -1141,9 +1131,9 @@
                                     <div class="copyright">© 2025 Eventbrite</div>
                                     <div class="general-links">
                                         <ul>
-                                            <li class="bullet-links"> <a>How It Works</a> </li>
-                                            <li class="bullet-links"> <a>Pricing</a> </li>
-                                            <li class="bullet-links"> <a>Contact Support</a> </li>
+                                            <li class="bullet-links hidden-bullets"> <a>How It Works</a> </li>
+                                            <li class="bullet-links hidden-bullets"> <a>Pricing</a> </li>
+                                            <li class="bullet-links hidden-bullets"> <a>Contact Support</a> </li>
                                             <li class="bullet-links"> <a>About</a> </li>
                                             <li class="bullet-links"> <a>Blog</a> </li>
                                             <li class="bullet-links"> <a>Help</a> </li>
@@ -1158,7 +1148,6 @@
                                             <li class="bullet-links"> <a>Privacy</a> </li>
                                             <li class="bullet-links"> <a>Accessibility</a> </li>
                                             <li class="bullet-links"> <a>Cookies</a> </li>
-
                                             <li class="bullet-links"> <a>Manage Cookie Preferences</a></li>
                                             <li class="bullet-linksLast"><a class="last-a" href="#"></a></li>
                                             <li class="bullet-linksLast"> <a>Do Not Sell or Share My Personal Information</a></li>
@@ -1208,3 +1197,4 @@
     <script src="script1.js"></script>
 </body>
 </html>
+zXZxzx Zxzxzx zxz zxzzxz zx zxzxzx z zxzx zx zx z zxzx

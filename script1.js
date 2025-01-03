@@ -4,8 +4,8 @@ let moreEvents = [];
 fetch('content.json')
     .then(response => response.json())
     .then(data => {
-        allEvents = data.online.slice(0,8);
-        moreEvents = data.online_more.slice(0,8); 
+        allEvents = data.online;
+        moreEvents = data.online_more; 
         renderEvents(allEvents, '.events-cards-container');
         renderEvents(moreEvents, '.event-cards-bottom-section');
     });
@@ -13,7 +13,7 @@ fetch('content.json')
 
 function renderEvents(events, containerSelector) {
     const container = document.querySelector(containerSelector);
-    container.innerHTML = ''; // Clear existing content in the container
+    container.innerHTML = ''; 
     events.forEach(event => {
         const cardContainer = document.createElement('div');
         cardContainer.className = 'feed-card-cell';
@@ -22,7 +22,7 @@ function renderEvents(events, containerSelector) {
         <div class="card-container">
             <div style="position: absolute;height: 100%;width: 100%;pointer-events: none;top: 0;left: 0;"></div>
             <a class="event-card-link">
-                <div class="event-card-image container">
+                <div class="event-card-image-container">
                     <img height="256" width="512" class="event-card-image" src="${event.eventCard.img}">
                 </div>
             </a>
@@ -46,6 +46,10 @@ function renderEvents(events, containerSelector) {
                             <span class="md-bold-para">${event.eventCard.followers}</span>
                         </div>
                     </div>
+                    <div class ="promoted-div" style ="display: ${event.eventCard.promoted ? 'flex' : 'none'};">
+                        <p class ="promoted-para">Promoted</p>
+                        <span><i class="eds-vector-image eds-icon--xsmall" data-spec="icon" data-testid="icon" aria-hidden="true"><svg id="help-chunky_svg__eds-icon--info-chunky_svg" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve" fill="#6f7287" width ="16" height ="16"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 6c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6 2.7-6 6-6zm0 14c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8z"></path><path d="M12.848 13.9a74.6 74.6 0 001.298-2.205c.272-.49.457-.877.556-1.161a2.53 2.53 0 00.148-.834c0-.454-.1-.845-.303-1.174-.202-.33-.502-.583-.902-.76-.4-.177-.887-.266-1.464-.266-.964 0-1.66.22-2.088.661-.429.44-.643 1.077-.643 1.91h1.384c0-.314.033-.573.099-.78a.88.88 0 01.383-.487c.19-.12.457-.18.803-.18.445 0 .762.1.952.297.19.198.284.474.284.828 0 .222-.05.467-.148.735-.1.268-.29.653-.575 1.156a94.695 94.695 0 01-1.34 2.26h1.556zm-.815 2.72a.92.92 0 00.66-.254.857.857 0 00.266-.649.892.892 0 00-.265-.667.909.909 0 00-.661-.26c-.28 0-.505.087-.674.26a.915.915 0 00-.253.667c0 .264.084.48.253.65.169.168.394.252.674.252z"></path></svg></i></span>
+                    </div>
                     <section class= "event-card-actions">
                         <div><button class ="event-actions">
                         <i class="eds-vector-image eds-icon--small eds-vector-image--grey-700 eds-vector-image--block" title="" data-spec="icon" data-testid="icon"><svg id="heart-chunky_svg__eds-icon--user-chunky_svg" x="0" y="0" viewBox="0 0 24 24" xml:space="preserve"><path id="heart-chunky_svg__eds-icon--heart-chunky_base" fill-rule="evenodd" clip-rule="evenodd" d="M18.8 6.2C18.1 5.4 17 5 16 5c-1 0-2 .4-2.8 1.2L12 7.4l-1.2-1.2C10 5.4 9 5 8 5c-1 0-2 .4-2.8 1.2-1.5 1.6-1.5 4.2 0 5.8l6.8 7 6.8-7c1.6-1.6 1.6-4.2 0-5.8zm-1.4 4.4L12 16.1l-5.4-5.5c-.8-.8-.8-2.2 0-3C7 7.2 7.5 7 8 7c.5 0 1 .2 1.4.6l2.6 2.7 2.7-2.7c.3-.4.8-.6 1.3-.6s1 .2 1.4.6c.8.8.8 2.2 0 3z"></path></svg><span class="eds-is-hidden-accessible">Save this event: Women Unlock Your Full Manifesting Potential: A 4-Week Vision Board Retreat</span></i></div>
@@ -61,7 +65,6 @@ function renderEvents(events, containerSelector) {
 
 
 function filterEvents(filter) {
-    const today = new Date();
     let filteredMainEvents = [];
     let filteredMoreEvents = [];
 
@@ -71,18 +74,10 @@ function filterEvents(filter) {
     } else if (filter === 'today') {
         filteredMainEvents = allEvents.filter(event => event.eventCard.date.includes('Today'));
         filteredMoreEvents = moreEvents.filter(event => event.eventCard.date.includes('Today'));
-    } else if (filter === 'this-weekend') {
-        filteredMainEvents = allEvents.filter(event => {
-            const eventDate = new Date(event.eventCard.date);
-            const day = eventDate.getDay();
-            return day === 6 || day === 0;
-        });
-        filteredMoreEvents = moreEvents.filter(event => {
-            const eventDate = new Date(event.eventCard.date);
-            const day = eventDate.getDay();
-            return day === 6 || day === 0;
-        });
-    } else if (filter === 'free') {
+    } else if (filter === 'this-weekend'){
+        filteredMainEvents = allEvents.filter(event => event.eventCard.date.includes('Sat') || event.eventCard.date.includes('Sun'))
+        filteredMoreEvents = moreEvents.filter(event => event.eventCard.date.includes('Sat') || event.eventCard.date.includes('Sun'))
+    }else if (filter === 'free') {
         filteredMainEvents = allEvents.filter(event => event.eventCard.price.toLowerCase() === 'free');
         filteredMoreEvents = moreEvents.filter(event => event.eventCard.price.toLowerCase() === 'free');
     }else if(filter === 'music'){
@@ -94,6 +89,12 @@ function filterEvents(filter) {
     }else if(filter === 'sports'){
         filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'sports')
         filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'sports')
+    }else if(filter === 'food'){
+        filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'food')
+        filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'food')
+    }else if(filter === 'charity'){
+        filteredMainEvents = allEvents.filter(event => event.eventCard.category === 'charity')
+        filteredMoreEvents = moreEvents.filter(event => event.eventCard.category === 'charity')
     }
 
     renderEvents(filteredMainEvents, '.events-cards-container');
@@ -130,7 +131,14 @@ document.getElementById('sports').addEventListener('click', () => {
     filterEvents('sports')
     head.innerText = 'More events for sports'
 })
-
+document.getElementById('food').addEventListener('click', () => {
+    filterEvents('food')
+    head.innerText = 'More food & drink events'
+})
+document.getElementById('charity-causes').addEventListener('click', () => {
+    filterEvents('charity')
+    head.innerText = 'More charity & causes events'
+})
 
 
 const tabs = document.querySelectorAll('.tabs-item .eds-btn--button')
@@ -152,3 +160,4 @@ function toggleActiveClass(event){
 tabs.forEach(tab =>{
     tab.addEventListener('click', toggleActiveClass)
 })
+
