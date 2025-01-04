@@ -27,9 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.left-arrow-carousel').addEventListener('click',prevSlide)
 
     updateCarousel();
-    setInterval(nextSlide, 3850);
+    setInterval(nextSlide, 4000);
 });
-
 
 
 const dropdown = document.querySelector('.eds-dropdown')
