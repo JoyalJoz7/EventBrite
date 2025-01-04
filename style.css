@@ -1449,6 +1449,7 @@ button:has(.eds-text.active){
     font-family: light;
     width:111px;
     position: relative;
+    outline:none;
 }
 
 .region-div .eds-vector-image{
@@ -1489,6 +1490,88 @@ button:has(.eds-text.active){
 
 .mediaque-ul-div{
     display:none;
+}
+
+.feed-empty{
+    display:none;
+}
+
+.feed-events-empty{
+    display:flex;
+    margin-bottom:40px;
+    margin-top:40px;
+    padding:24px 0;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.feed-state-msg{
+    display:flex;
+    max-width:320px;
+    min-height:220px;
+    flex-flow: column nowrap;
+    justify-content:center;
+    padding-block:24px;
+    align-items:center;
+}
+
+.feed-empty-icon{
+    background-size:contain;
+    display:inline;
+    line-height:0;
+    margin:0 auto;
+    height:144px;
+    width:144px;
+    vertical-align:middle;
+}
+
+.feed-empty-icon svg{
+    height:144px;
+    width:144px;
+}
+.feed-empty-head{
+    margin-top:24px;
+    font-size:1.25rem;
+    letter-spacing:.25px;
+    line-height:1.75rem;
+    margin-right:-.25px;
+}
+
+.feed-empty-head h3{
+    font-family:bold;
+}
+
+.feed-empty-para{
+    color:#6f7287;
+    text-align:center;
+    font-family:light;
+    font-size:1rem;
+    line-height:1.5rem;
+    margin-top:8px;
+    margin-bottom:24px;
+}
+
+.feed-empty-link{
+    background-color:transparent;
+    text-decoration:none;
+}
+
+.feed-empty-btn{
+    background-color:#d1410c;
+    border:none;
+    color:#fff;
+    height:44px;
+    letter-spacing:.2px;
+    font-family: light;
+    font-size:14px;
+    line-height:24px;
+    padding:0 30px 1px;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+    transform:translateZ(0);
+    cursor:pointer;
+    border-radius:4px;
 }
 
 @media screen and (min-width:481px) {
@@ -2020,3 +2103,8 @@ button:has(.eds-text.active){
         bottom:20%;
     }
 }
+
+/* DOUBTS  */
+/* scrollbar visible when inspecting is closed 
+footer gap issue between two content of one div
+*/

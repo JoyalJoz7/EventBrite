@@ -109,8 +109,35 @@ help_center.addEventListener('click',() => help_dropdn.classList.toggle('active'
 const left_slide = document.querySelector('.left-slide-btn')
 const right_slide = document.querySelector('.right-slide-btn')
 const carousel_div = document.querySelector('.simple-carousel')
-const carousel_slides = document.querySelector('.carousel-slide')
+const carousel_slides = document.querySelectorAll('.carousel-slide')
 
-right_slide.addEventListener('click',() => {
-    carousel_slides.style.transform = `translateX(-20%)`
+const scrollWidth = carousel_div.offsetWidth
+const totalWidth = carousel_slides.length
+
+const updateButtonStates = () => {
+    if(carousel_div.scrollLeft <= 0) {
+        left_slide.disabled = true
+    }else{
+        left_slide.disabled = false
+    }
+
+    if(carousel_div.scrollLeft === totalWidth){
+        right_slide.disabled = true
+    }else{
+        right_slide.disabled = false
+    }
+}
+
+updateButtonStates()
+
+right_slide.addEventListener('click',(e) => {
+    e.preventDefault()
+    carousel_div.scrollBy({left:scrollWidth,behavior:"smooth"})
 })
+
+left_slide.addEventListener('click',function(e){
+    e.preventDefault()
+    carousel_div.scrollBy({left:-scrollWidth,behavior:"smooth"})
+})
+
+carousel_div.addEventListener('scroll',updateButtonStates)

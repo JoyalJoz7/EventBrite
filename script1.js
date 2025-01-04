@@ -104,6 +104,8 @@ function filterEvents(filter) {
 const head = document.querySelector('.sec-section-head')
 
 document.getElementById('all').addEventListener('click', () => {
+    main_container.display = 'block'
+    feed_empty.display = 'none'
     filterEvents('all')
     head.innerText = 'More online events'
 });
@@ -139,7 +141,13 @@ document.getElementById('charity-causes').addEventListener('click', () => {
     filterEvents('charity')
     head.innerText = 'More charity & causes events'
 })
+let main_container = document.querySelector('.feed-builder')
+let feed_empty = document.querySelector('.feed-empty')
 
+document.getElementById('for-you').addEventListener('click',() => {
+    main_container.style.display = 'none'
+    feed_empty.style.display = 'block'
+})
 
 const tabs = document.querySelectorAll('.tabs-item .eds-btn--button')
 
