@@ -104,43 +104,61 @@ function filterEvents(filter) {
 const head = document.querySelector('.sec-section-head')
 
 document.getElementById('all').addEventListener('click', () => {
-    main_container.display = 'block'
-    feed_empty.display = 'none'
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('all')
     head.innerText = 'More online events'
 });
+
 document.getElementById('today').addEventListener('click', () => {
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('today')
     head.innerText = 'More events today'
 });
 document.getElementById('this-weekend').addEventListener('click', () => {
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('this-weekend')
     head.innerText = 'More events this weekend'
 });
 document.getElementById('free').addEventListener('click', () => {
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('free')
     head.innerText = 'More free events'
 });
 document.getElementById('music').addEventListener('click',() =>{
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('music')
     head.innerText = 'More music events'
 });
 document.getElementById('online').addEventListener('click', () => {
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('online')
     head.innerText ='More online events'
 })
 document.getElementById('sports').addEventListener('click', () => {
+    main_container.style.display ='block'
+    feed_empty.style.display = 'none'
     filterEvents('sports')
     head.innerText = 'More events for sports'
 })
 document.getElementById('food').addEventListener('click', () => {
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('food')
     head.innerText = 'More food & drink events'
 })
 document.getElementById('charity-causes').addEventListener('click', () => {
+    main_container.style.display = 'block'
+    feed_empty.style.display = 'none'
     filterEvents('charity')
     head.innerText = 'More charity & causes events'
 })
+
 let main_container = document.querySelector('.feed-builder')
 let feed_empty = document.querySelector('.feed-empty')
 
