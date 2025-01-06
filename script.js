@@ -35,10 +35,6 @@ const dropdown = document.querySelector('.eds-dropdown')
 const drpdn_btn = document.querySelector('.field-styled-aside')
 const input_tab = document.querySelector('.field-styled-input')
 
-// drpdn_btn.addEventListener('click', () => {
-//     dropdown.classList.add('active')
-    
-// })
 
 const toggleDropdown = () => {
     dropdown.classList.toggle('active');
@@ -55,13 +51,20 @@ document.addEventListener('click', (event) => {
     }
 });
 
+// TOp online search tab
 
-const top_dropdn = document.querySelector('.eds-dropdown-top')
-const location_drop = document.querySelector('.location-holder')
+const top_dropdn = document.querySelector('.online-container .eds-dropdown-top')
+const location_drop = document.querySelector('.online-container')
 
-location_drop.addEventListener('click',()=> {
-    console.log(location_drop)
-    top_dropdn.style.visibility='visible'
+location_drop.addEventListener('click',(event)=> {
+    event.stopPropagation()
+    top_dropdn.classList.toggle('show')
+})
+
+document.addEventListener('click',(event) => {
+    if(!location_drop.contains(event.target)){
+        top_dropdn.classList.remove('show')
+    }
 })
 
 
@@ -99,7 +102,16 @@ document.addEventListener('DOMContentLoaded',function(){
 const help_center = document.querySelector('.help-center')
 const help_dropdn = document.querySelector('.help-dropdn')
 
-help_center.addEventListener('click',() => help_dropdn.classList.toggle('active'))
+help_center.addEventListener('click',(event) => {
+    event.stopPropagation()
+    help_dropdn.classList.toggle('active')
+})
+
+document.addEventListener('click',(event) => {
+    if(!help_center.contains(event.target)){
+        help_dropdn.classList.remove('active')
+    }
+})
 
 
 
@@ -140,3 +152,18 @@ left_slide.addEventListener('click',function(e){
 })
 
 carousel_div.addEventListener('scroll',updateButtonStates)
+
+
+location_cont = document.querySelector('.hidden-online-bar .location-container')
+drop_dn_sec = document.querySelector('.hidden-online-bar .eds-dropdown-top')
+
+location_cont.addEventListener('click',(event) => {
+    event.stopPropagation()
+    drop_dn_sec.classList.toggle('show')
+})
+
+document.addEventListener('click',(event) => {
+    if(!location_cont.contains(event.target)){
+        drop_dn_sec.classList.remove('show')
+    }
+})

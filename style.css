@@ -1475,6 +1475,7 @@ button:has(.eds-text.active){
 
 .hidden-online-bar{
     display:none;
+    position:relative;
 }
 
 .mobile-hidden-search{
